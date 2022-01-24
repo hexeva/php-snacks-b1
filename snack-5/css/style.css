@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.grey{
+    width: 100%;
+    background-color: lightgray;
+    margin: 50px 0;
+}
+
+.single-teacher{
+    border-bottom: 1px dotted grey;
+    margin: 10px 0;
+}
+
+.green{
+    width: 100%;
+    background-color: lightgreen;
+
+}
+
+.single-pm{
+    border-bottom: 1px dotted white;
+    margin: 10px 0;
+}
