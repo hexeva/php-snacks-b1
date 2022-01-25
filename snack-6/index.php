@@ -39,6 +39,10 @@ Creare un array contenente qualche alunno di un’ipotetica classe. Ogni alunno 
         ],
     ];
 
+    var_dump($students[2]['grades']);
+   $average_grades = array_sum($students['grades']);
+   var_dump($average_grades);
+
 ?>
     
 </body>
