@@ -52,9 +52,11 @@
 
  <?php for($i = 0; $i < count($exploded); $i++){ ?>
     <?php $this_paragraph = $exploded[$i]; ?>
-
-    <h2> <?php echo $this_paragraph; ?> </h2>
-
+<!-- se il paragrafo non è vuoto allora lo stampo utilizzando il controllo con la funzione empty
+ -->
+    <?php if(!empty($exploded)) {?>
+        <h2> <?php echo $this_paragraph; ?> </h2>
+    <?php }?>
 <?php } ?>
 
 
